@@ -1,5 +1,5 @@
 import React from 'react'
-import HomePage from './pages/HomePage'
+import HomePage from './pages/Homepage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import { Routes, Route, Navigate } from 'react-router-dom'
