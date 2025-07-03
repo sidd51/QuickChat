@@ -29,20 +29,23 @@ export const AuthProvider=({children})=>{
 
   //Connect socket functiom to handle socket connection and online users updates
 
-  const connectSocket=(userData)=>{
-    if(!userData || socket?.connected) return;
+  const connectSocket = (userData) => {
+  if (!userData || socket?.connected) return;
 
-    const newSocket= io(backendUrl,{
-      query:{
-          userId: userData._id,
-      }
-    });
-    newSocket.connect();
-    setSocket(newSocket);
-    newSocket.on("getOnlineUsers",(userIds)=>{
-      setOnlineUsers(userIds);
-    })
-  }
+  const newSocket = io(backendUrl, {
+    query: { userId: userData._id },
+    withCredentials: true, // ✅ Add this
+    transports: ['websocket'] // ✅ Optional, but forces websocket over polling
+  });
+
+  newSocket.connect();
+  setSocket(newSocket);
+
+  newSocket.on("getOnlineUsers", (userIds) => {
+    setOnlineUsers(userIds);
+  });
+};
+
 
 //Login function to handle user auth and socket connection
     const login=async(state, credentials)=>{
