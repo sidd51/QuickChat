@@ -1,4 +1,4 @@
-# Buzzit - Real-Time Chat App 🚀
+# QuickChat - Real-Time Chat App 🚀
 
 A modern real-time chat application built with the MERN stack and Socket.IO.
 
