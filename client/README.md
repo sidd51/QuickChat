@@ -1,12 +1,84 @@
-# React + Vite
+# 💬 QuickChat - Real-Time Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuickChat is a **real-time messaging platform** built using the **MERN stack** and **Socket.IO**.  
+It enables users to chat instantly, share images, and enjoy a seamless messaging experience across devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Real-Time Messaging**
+  - Instant communication using Socket.IO
+- **User Authentication**
+  - JWT-based secure authentication
+- **Media Sharing**
+  - Upload and share images via Cloudinary
+- **Responsive UI**
+  - Optimized for both desktop and mobile devices
+- **Dynamic Chat Features**
+  - Typing indicators, chat updates without page reloads
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React
+- Vite
+- Tailwind CSS
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB Atlas
+
+**Real-Time Communication:**
+- Socket.IO
+
+**Media Storage:**
+- Cloudinary
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/quickchat.git
+   cd quickchat
+2 **Install dependencies**
+
+bash
+Copy
+Edit
+npm install
+Set up environment variables
+Create a .env file in the root directory and add:
+
+env
+Copy
+Edit
+MONGO_URI=<your-mongodb-uri>
+JWT_SECRET=<your-jwt-secret>
+CLOUDINARY_CLOUD_NAME=<your-cloud-name>
+CLOUDINARY_API_KEY=<your-api-key>
+CLOUDINARY_API_SECRET=<your-api-secret>
+Run the development server
+
+bash
+Copy
+Edit
+npm run dev
+## 📸 Screenshots
+
+![Login Screenshot](./src/assets/Screenshot%202025-08-14%20at%2016.56.41.png)
+
+![Homepage Screenshot](./src/assets/Screenshot%202025-08-14%20at%2015.45.27.png)
+
+![Edit Profile Screenshot](./src/assets/Screenshot%202025-08-14%20at%2016.55.54.png)
+
+## 🌐 Live Demo
+Visit QuickChat Live
+
+## 📜 License
+This project is licensed under the MIT License — feel free to use and modify it.
