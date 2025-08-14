@@ -68,7 +68,7 @@ env
 
 ## 📸 Screenshots
 
-![Login Screenshot](./screenshots/Screenshot%2025-08-14%at%16.56.41.png)
+![Login Screenshot](./screenshots/Screenshot%202025-08-14%20at%2016.56.41.png)
 
 ![Homepage Screenshot](./screenshots/Screenshot%202025-08-14%20at%2015.45.27.png)
 
