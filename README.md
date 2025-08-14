@@ -48,37 +48,34 @@ It enables users to chat instantly, share images, and enjoy a seamless messaging
    cd quickchat
 2 **Install dependencies**
 
-bash
-Copy
-Edit
-npm install
-Set up environment variables
+      npm install
+
+3 **Set up environment variables**
 Create a .env file in the root directory and add:
 
 env
-Copy
-Edit
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-CLOUDINARY_CLOUD_NAME=<your-cloud-name>
-CLOUDINARY_API_KEY=<your-api-key>
-CLOUDINARY_API_SECRET=<your-api-secret>
-Run the development server
 
-bash
-Copy
-Edit
-npm run dev
+    MONGO_URI=<your-mongodb-uri>
+    JWT_SECRET=<your-jwt-secret>
+    CLOUDINARY_CLOUD_NAME=<your-cloud-name>
+    CLOUDINARY_API_KEY=<your-api-key>
+    CLOUDINARY_API_SECRET=<your-api-secret>
+
+4 **Run the development server**
+
+            npm run dev
+
+
 ## 📸 Screenshots
 
-![Login Screenshot](./src/assets/Screenshot%202025-08-14%20at%2016.56.41.png)
+![Login Screenshot](./screenshots/Screenshot%2025-08-14%at%16.56.41.png)
 
-![Homepage Screenshot](./src/assets/Screenshot%202025-08-14%20at%2015.45.27.png)
+![Homepage Screenshot](./screenshots/Screenshot%202025-08-14%20at%2015.45.27.png)
 
-![Edit Profile Screenshot](./src/assets/Screenshot%202025-08-14%20at%2016.55.54.png)
+![Edit Profile Screenshot](./screenshots/Screenshot%202025-08-14%20at%2016.55.54.png)
 
 ## 🌐 Live Demo
-Visit QuickChat Live
+  Visit QuickChat Live
 
 ## 📜 License
 This project is licensed under the MIT License — feel free to use and modify it.
