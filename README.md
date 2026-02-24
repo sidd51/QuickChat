@@ -44,7 +44,7 @@ It enables users to chat instantly, share images, and enjoy a seamless messaging
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/quickchat.git
+   git clone https://github.com/sidd51/QuickChat.git
    cd quickchat
 2 **Install dependencies**
 
@@ -75,7 +75,7 @@ env
 ![Edit Profile Screenshot](./screenshots/Screenshot%202025-08-14%20at%2016.55.54.png)
 
 ## 🌐 Live Demo
-  Visit QuickChat Live
+  Visit: https://quick-chat-puce-seven.vercel.app/login
 
 ## 📜 License
 This project is licensed under the MIT License — feel free to use and modify it.
