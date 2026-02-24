@@ -75,7 +75,7 @@ env
 ![Edit Profile Screenshot](./screenshots/Screenshot%202025-08-14%20at%2016.55.54.png)
 
 ## 🌐 Live Demo
-  Visit https://quick-chat-puce-seven.vercel.app/login
+  Visit: https://quick-chat-puce-seven.vercel.app/login
 
 ## 📜 License
 This project is licensed under the MIT License — feel free to use and modify it.
