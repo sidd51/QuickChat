@@ -26,6 +26,16 @@ const LoginPage = () => {
     navigate('/');
    }
   }
+  const DEMO_USER = {
+  email: "siddhiborawake@gmail.com",
+  password: "siddhi123"
+ };
+ //handle demo login
+ const handleDemoLogin = async () => {
+  const success = await login("login", DEMO_USER);
+  if (success) navigate("/");
+};
+
 
   return (
     <div className="min-h-screen bg-cover bg-center flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col backdrop-blur-2xl">
@@ -78,7 +88,17 @@ const LoginPage = () => {
       ): (<p className="text-sm text-gray-600">
             Create an account <span onClick={()=>{setCurrState("Sign up");}} className="font-medium text-purple-500 cursor-pointer">Click here</span>
       </p>)}
-
+      
+  {/* Demo Button */}
+  {currState === "Login" && (
+    <button
+      type="button"
+      onClick={handleDemoLogin}
+      className="py-2 border border-purple-400 text-purple-600 rounded-md hover:bg-purple-100 transition"
+    >
+      🚀 Try Demo Account
+    </button>
+  )}
     </div>
       </form>
     </div>
