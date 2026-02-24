@@ -44,7 +44,7 @@ It enables users to chat instantly, share images, and enjoy a seamless messaging
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/quickchat.git
+   git clone https://github.com/sidd51/QuickChat.git
    cd quickchat
 2 **Install dependencies**
 
