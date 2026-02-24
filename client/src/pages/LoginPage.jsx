@@ -88,17 +88,16 @@ const LoginPage = () => {
       ): (<p className="text-sm text-gray-600">
             Create an account <span onClick={()=>{setCurrState("Sign up");}} className="font-medium text-purple-500 cursor-pointer">Click here</span>
       </p>)}
-      
-  {/* Demo Button */}
-  {currState === "Login" && (
-    <button
-      type="button"
-      onClick={handleDemoLogin}
-      className="py-2 border border-purple-400 text-purple-600 rounded-md hover:bg-purple-100 transition"
-    >
-      🚀 Try Demo Account
-    </button>
-  )}
+      {/* Demo Button */}
+    {currState === "Sign up" && (
+      <button
+        type="button"
+        onClick={handleDemoLogin}
+        className="py-2 border border-purple-400 text-purple-600 rounded-md hover:bg-purple-100 transition"
+      >
+        🚀 Try Demo Account
+      </button>)}
+
     </div>
       </form>
     </div>
